@@ -1,0 +1,31 @@
+{
+  "name": "typscript-on-gcp",
+  "version": "0.1.0",
+  "description": "Full stack development with Typescript on Google Cloud Platform",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subfuzion/typescript-on-gcp.git"
+  },
+  "author": "Tony Pujals <tonypujals@google.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subfuzion/typescript-on-gcp/issues"
+  },
+  "homepage": "https://github.com/subfuzion/typescript-on-gcp#readme",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
