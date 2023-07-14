@@ -6,8 +6,8 @@ For someone new to the cloud (or even just new to GCP), figuring out how and
 where to start can certainly feel daunting.
 
 I decided to put this guide together to share a clear, practical, and
-opinionated picture tailored specifically for full stack developers. To keep it
-succinct, I focus mainly on the following:
+opinionated orientation tailored specifically for full stack developers. To keep
+it succinct, I focus mainly on the following:
 
 - For programming, the language is [TypeScript](https://www.typescriptlang.org/)
 - For standalone API examples, the framework is [Express.js](https://expressjs.com/)

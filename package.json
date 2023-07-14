@@ -49,8 +49,16 @@
     "typescript": "^4.9.3"
   },
   "lint-staged": {
+    "components/**/*.{md,mdx,ts,tsx,json,css}": [
+      "prettier --write"
+    ],
     "pages/**/*.{md,mdx,ts,tsx,json,css}": [
-      "prettier --write",
+      "prettier --write"
+    ],
+    "components/**/*.{ts,tsx}": [
+      "eslint --fix --max-warnings=0"
+    ],
+    "pages/**/*.{ts,tsx}": [
       "eslint --fix --max-warnings=0"
     ]
   }
