@@ -11,8 +11,8 @@
     "lint": "tsc && next lint --max-warnings=0",
     "prettier": "prettier --write \"components/**/*.{ts,tsx,css,json}\" \"pages/**/*.{md,mdx,ts,tsx,css,json}\"",
     "fix": "npm run prettier && eslint --fix --max-warnings=0",
-    "NOTE": ": The following aren't needed (using GitHub action instead)",
     "export": "next build && next export && touch out/.nojekyll",
+    "NOTE": ": The following isn't needed (using GitHub action instead)",
     "deploy": "gh-pages -d out -t true"
   },
   "repository": {

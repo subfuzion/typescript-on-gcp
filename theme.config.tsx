@@ -13,6 +13,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'TypeScript on GCP - Copyright (c) 2023 Tony Pujals. All rights reserved',
   },
+  useNextSeoProps: function() {
+    return {
+      titleTemplate: '%s – TypeScript on GCP'
+    }
+  }
 }
 
 export default config
