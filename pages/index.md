@@ -21,16 +21,16 @@ In this guide, you'll learn how to:
 - Build modern, full stack, scalable apps that run on GCP
 - Leverage global load balancing and edge caching for enhancing performance
 - Integrate your apps with other necessary or feature-enhancing services
-- Configure and manage the GCP resources your app requires using YAML
 - Customize your app's runtime process environment using a Dockerfile
+- Configure and manage GCP resources with Infrastructure-as-Code
 
 ## What you should already know
 
 To follow this guide, you don't need to be an expert, but you should at least
-have basic proficiency with the following:
+have basic proficiency doing the following:
 
-- Using the command line in a terminal
-- Programming in TypeScript
+- Use the command line in a terminal
+- Program in TypeScript
 
 ## Sharing feedback
 
