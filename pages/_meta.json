@@ -22,5 +22,8 @@
   },
   "overview": "Overview",
   "getting-started": "Getting Started",
-  "terraform": "Terraform"
+  "terraform": "Terraform",
+  "docker": "Docker",
+  "next-js": "Next.js",
+  "firestore": "Cloud Firestore"
 }
