@@ -1,0 +1,6 @@
+{
+  "overview": "Overview",
+  "static-gen": "Static Generation",
+  "ssr": "Server-Side Rendering",
+  "csr": "Client-Side Rendering"
+}
