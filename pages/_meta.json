@@ -25,5 +25,6 @@
   "terraform": "Terraform",
   "docker": "Docker",
   "next-js": "Next.js",
-  "firestore": "Cloud Firestore"
+  "firestore": "Cloud Firestore",
+  "cloud-client-libraries": "Node.js Cloud Client Libraries"
 }
