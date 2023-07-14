@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "description": "Full stack development with Typescript on Google Cloud Platform",
   "scripts": {
+    "clean": "rimraf .next out",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export && touch out/.nojekyll",
+    "prepare": "husky install",
+    "deploy": "gh-pages -d out -t true",
+    "lint": "next lint --max-warnings=0",
+    "type-check": "tsc"
   },
   "repository": {
     "type": "git",
@@ -26,6 +32,24 @@
   },
   "devDependencies": {
     "@types/node": "18.11.10",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-config-next": "^13.4.9",
+    "eslint-config-prettier": "^8.8.0",
+    "gh-pages": "^5.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
+    "rimraf": "^5.0.1",
     "typescript": "^4.9.3"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,json,md,mdx}": [
+      "prettier --write",
+      "eslint --fix --max-warnings=0"
+    ]
   }
 }
