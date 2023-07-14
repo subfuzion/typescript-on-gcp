@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/subfuzion/typescript-on-gcp',
   footer: {
-    text: 'TypeScript on GCP - Copyright (c) 2023 Tony Pujals',
+    text: 'TypeScript on GCP - Copyright (c) 2023 Tony Pujals. All rights reserved',
   },
 }
 
