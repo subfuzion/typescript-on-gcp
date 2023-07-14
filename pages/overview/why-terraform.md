@@ -2,14 +2,14 @@
 
 With Terraform, you can use YAML to configure:
 
-* Cloud infrastructure resources (including compute and storage services).
-* Cloud resources (such as Cloud Build and Cloud Deploy) for automating CI/CD pipelines.
+- Cloud infrastructure resources (including compute and storage services).
+- Cloud resources (such as Cloud Build and Cloud Deploy) for automating CI/CD pipelines.
 
-This is known as *Infrastructure as Code*, and advantages include:
+This is known as _Infrastructure as Code_, and advantages include:
 
-* Using a declarative approach to define an outcome that the Terraform engine
+- Using a declarative approach to define an outcome that the Terraform engine
   will strive to achieve
-* Tracking changes to configuration using version control
+- Tracking changes to configuration using version control
 
 Full stack developers are generally already familiar with using a variety of
 configuration files for managing various settings for their applications. A

@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "description": "Full stack development with Typescript on Google Cloud Platform",
   "scripts": {
+    "prepare": "husky install",
     "clean": "rimraf .next out",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "tsc && next lint --max-warnings=0",
+    "prettier": "prettier --write \"components/**/*.{ts,tsx,css,json}\" \"pages/**/*.{md,mdx,ts,tsx,css,json}\"",
+    "fix": "npm run prettier && eslint --fix --max-warnings=0",
+    "NOTE": ": The following aren't needed (using GitHub action instead)",
     "export": "next build && next export && touch out/.nojekyll",
-    "prepare": "husky install",
-    "deploy": "gh-pages -d out -t true",
-    "lint": "next lint --max-warnings=0",
-    "type-check": "tsc"
+    "deploy": "gh-pages -d out -t true"
   },
   "repository": {
     "type": "git",
@@ -47,7 +49,7 @@
     "typescript": "^4.9.3"
   },
   "lint-staged": {
-    "src/**/*.{ts,json,md,mdx}": [
+    "pages/**/*.{md,mdx,ts,tsx,json,css}": [
       "prettier --write",
       "eslint --fix --max-warnings=0"
     ]

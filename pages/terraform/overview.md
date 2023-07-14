@@ -10,4 +10,3 @@ Language (HCL).
 
 You'll be introduced to these files over the next few pages, then dive into more
 detail once it time to start deploying things.
-

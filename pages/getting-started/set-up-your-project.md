@@ -55,4 +55,3 @@ gcloud beta billing projects link my-amazing-demo-1 --billing-account 0X0X0X-0X0
 ![gcloud beta billing projects link](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qqorha9na0wmr1mdup2v.png)
 
 > In the screenshot above, I have my billing account ID saved in a shell variable.
-

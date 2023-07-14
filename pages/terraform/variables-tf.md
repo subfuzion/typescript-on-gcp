@@ -2,7 +2,7 @@
 
 You'll need a `variables.tf` file to declare the required input variables for your Terraform script.
 
-```yaml
+```hcl
 variable "project_id" {
   type        = string
   description = "The Google Cloud project ID."
