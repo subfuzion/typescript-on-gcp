@@ -1,9 +1,10 @@
 # Why Terraform?
 
-With Terraform, you can use YAML to configure:
+With Terraform, you can use a simple configuration syntax to deploy:
 
 - Cloud infrastructure resources (including compute and storage services).
-- Cloud resources (such as Cloud Build and Cloud Deploy) for automating CI/CD pipelines.
+- Cloud resources (such as Cloud Build and Cloud Deploy) for automating CI/CD
+  pipelines.
 
 This is known as _Infrastructure as Code_, and advantages include:
 
@@ -20,6 +21,7 @@ typical sampling of these files might include:
 - [next.config.ts](https://nextjs.org/docs/app/api-reference/next-config-js/runtime-configuration)
 - [.eslintrc](https://eslint.org/docs/latest/use/configure/)
 - [.editorconfig](https://editorconfig.org/)
+- [.prettierrc](https://prettier.io/docs/en/configuration.html)
 - [launch.json](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)
 
 Terraform adds a few more files to the developer's configuration repertoire, but
